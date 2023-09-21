@@ -1,0 +1,13 @@
+//Inheritance
+-It is possible to inherit attributes and methods from one class to another.
+
+//Classes in Inheritance
+1- Derived Class(Child) -The class that inherits fro another class.
+2- Base Class(Parent) -The classs being inherited form.
+
+//Types of Inheritance
+1-Single Inheritance
+2-Mutiple Inheritance
+3-Multi level Inheritance
+4-Hybrid Inheritance
+5-Hierarchical Inheritance
