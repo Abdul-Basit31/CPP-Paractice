@@ -1,0 +1,7 @@
+What is  Array?
+Array is a list of variables they similar data type.
+
+**syntax
+    datatype arrayname [size];
+              int  array[4] = {1,2,3,4};
+
