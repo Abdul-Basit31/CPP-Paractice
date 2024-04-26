@@ -21,7 +21,7 @@ int secondLargest(int arr[], int n) {
 
 
 int main() {
-    int arr[] = { 12, 35, 1, 10, 34, 1 };
+    int arr[] = { 12, 35, 1,34 ,10, 34, 1 };
     int n = sizeof(arr)/sizeof(arr[0]);
     int second_Largest = secondLargest(arr, n);
     if (second_Largest == -1)

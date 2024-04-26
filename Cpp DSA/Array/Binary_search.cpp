@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int binarysearch(int arr[], int key){
+int binarysearch(int arr[],int size, int key){
 	int start=0;
 	int end=size-1;
 	int mid=(start+end)/2;                 //mid=(start+(end-start)/2)
@@ -21,8 +21,9 @@ int binarysearch(int arr[], int key){
 }
 
 int main(){
-	int arr[10] = {1,2,3,4,5,6,7,8,9,10};
-	int index=binarysearch(arr, 6);
+	int arr[] = {1,2,3,4,5,6,7,8,9,10};
+	int size = sizeof(arr)/sizeof(arr[0]);
+	int index=binarysearch(arr,size, 6);
 	cout<<index;
 	return 0;
 }
